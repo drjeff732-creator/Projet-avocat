@@ -35,7 +35,7 @@ const Index = () => {
               Une équipe experte à votre service
             </p>
             <div className="mt-6 flex gap-3">
-              <Button asChild variant="cta" size="wide"><Link to="/contact">Prenez rendez-vous</Link></Button>
+              <Button asChild variant="cta" size="wide"><Link to="/contact">Prendre rendez-vous</Link></Button>
               <Button asChild variant="outline"><Link to="/services">Découvrir nos services</Link></Button>
             </div>
           </div>

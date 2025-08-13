@@ -12,42 +12,42 @@ export default {
 	theme: {
 		container: {
 			center: true,
-			padding: '2rem',
+			padding: '1rem',
 			screens: {
-				'2xl': '1400px'
-			}
+				'2xl': '1280px',
+			},
 		},
 		extend: {
 			fontFamily: {
 				sans: ['Inter', 'ui-sans-serif', 'system-ui', 'sans-serif'],
 				display: ['Poppins', 'Inter', 'system-ui', 'sans-serif'],
-				legal: ['Playfair Display', 'serif'],
+				heading: ['Montserrat', 'sans-serif'],
 			},
 			colors: {
-				border: 'hsl(var(--border))',
-				input: 'hsl(var(--input))',
-				ring: 'hsl(var(--ring))',
-				background: 'hsl(var(--background))',
-				foreground: 'hsl(var(--foreground))',
+				border: 'hsl(0 0% 89%)',
+				input: 'hsl(0 0% 89%)',
+				ring: 'hsl(220 13% 46%)',
+				background: 'hsl(0 0% 100%)',
+				foreground: 'hsl(0 0% 13%)',
 				primary: {
-					DEFAULT: 'hsl(var(--primary))',
-					foreground: 'hsl(var(--primary-foreground))'
+					DEFAULT: 'hsl(210 100% 50%)',
+					foreground: 'hsl(0 0% 100%)',
 				},
 				secondary: {
-					DEFAULT: 'hsl(var(--secondary))',
-					foreground: 'hsl(var(--secondary-foreground))'
+					DEFAULT: 'hsl(210 20% 98%)',
+					foreground: 'hsl(224 71% 37%)',
 				},
 				destructive: {
-					DEFAULT: 'hsl(var(--destructive))',
-					foreground: 'hsl(var(--destructive-foreground))'
+					DEFAULT: 'hsl(0 84% 60%)',
+					foreground: 'hsl(0 0% 100%)',
 				},
 				muted: {
-					DEFAULT: 'hsl(var(--muted))',
-					foreground: 'hsl(var(--muted-foreground))'
+					DEFAULT: 'hsl(210 20% 98%)',
+					foreground: 'hsl(220 9% 46%)',
 				},
 				accent: {
-					DEFAULT: 'hsl(var(--accent))',
-					foreground: 'hsl(var(--accent-foreground))'
+					DEFAULT: 'hsl(210 100% 50%)',
+					foreground: 'hsl(0 0% 100%)'
 				},
 				cta: {
 					DEFAULT: 'hsl(var(--cta))',

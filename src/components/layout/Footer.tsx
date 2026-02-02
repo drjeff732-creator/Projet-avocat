@@ -18,12 +18,12 @@ const Footer = () => {
             <div className="space-y-3">
               <div className="flex items-start space-x-3">
                 <Phone className="w-4 h-4 mt-1 text-gray-600" />
-                <a href="tel:+33757846839" className="text-sm hover:text-blue-600 transition-colors">+33 7 57 84 68 39</a>
+                <a href="tel:+33757828006" className="text-sm hover:text-blue-600 transition-colors">+33 7 57 82 80 06</a>
               </div>
               
               <div className="flex items-start space-x-3">
                 <Mail className="w-4 h-4 mt-1 text-gray-600" />
-                <span className="text-sm">pierre.philipot-amf@proton.me</span>
+                <span className="text-sm"><a href="mailto:pierre.philipot-amf@proton.me?subject=Demande d'information&body=Bonjour ...">pierre.philipot-amf@proton.me</a></span>
               </div>
               
               <div className="flex items-start space-x-3">

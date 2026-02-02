@@ -98,11 +98,11 @@ const Header = () => {
             {/* Contact et CTA */}
             <div className="hidden lg:flex items-center space-x-6">
               <a 
-                href="tel:+33757846839" 
+                href="tel:+33757828006" 
                 className="flex items-center text-gray-700 hover:text-black transition-colors cursor-pointer"
               >
                 <Phone className="h-4 w-4 mr-2 fill-current" />
-                <span className="font-bold">+33 7 57 84 68 39</span>
+                <span className="font-bold">+33 7 57 82 80 06</span>
               </a>
               
               <Link to="/contact" className="bg-gray-800 hover:bg-black text-white px-6 py-3 rounded-md font-bold transition-colors">
@@ -179,9 +179,9 @@ const Header = () => {
               </Link>
 
               <div className="border-t pt-4 mt-4">
-                <a href="tel:+33757846839" className="flex items-center text-gray-700 hover:text-black mb-3">
+                <a href="tel:+33757828006" className="flex items-center text-gray-700 hover:text-black mb-3">
                   <Phone className="h-4 w-4 mr-2" />
-                  <span className="font-medium">+33 7 57 84 68 39</span>
+                  <span className="font-medium">+33 7 57 82 80 06</span>
                 </a>
                 
                 <Link to="/contact" className="block w-full bg-gray-800 hover:bg-black text-white px-6 py-3 rounded-md font-medium transition-colors text-center" onClick={() => setIsMenuOpen(false)}>

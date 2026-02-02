@@ -212,7 +212,7 @@ const Contact = () => {
             {/* Numéro de téléphone */}
             <div className="text-center">
               <div className="border border-gray-200 rounded-lg py-3 px-4 bg-gray-50">
-                <a href="tel:+33757846839" className="text-lg font-semibold text-gray-800 hover:text-blue-600 transition-colors">📞 +33 7 57 84 68 39</a>
+                <a href="tel:+33757828006" className="text-lg font-semibold text-gray-800 hover:text-blue-600 transition-colors">📞 +33 7 57 82 80 06</a>
               </div>
             </div>
 

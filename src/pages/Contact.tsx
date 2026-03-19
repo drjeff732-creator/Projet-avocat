@@ -36,7 +36,7 @@ const Contact = () => {
         `Civilité: ${data.civilite}\nNom: ${data.nom}\nSociété: ${data.societe || "-"}\nTéléphone: ${data.telephone || "-"}\nEmail: ${data.email}\n\nMessage:\n${data.message}`
       );
       
-      const generatedMailtoLink = `mailto:pierre.philipot-amf@proton.me?subject=${subject}&body=${body}`;
+      const generatedMailtoLink = `mailto:hashtag.avocat@proton.me?subject=${subject}&body=${body}`;
       console.log('Lien mailto:', generatedMailtoLink);
       
       // Sauvegarder le lien pour le fallback
@@ -195,7 +195,7 @@ const Contact = () => {
                   </Button>
                 </div>
                 <p className="text-xs text-blue-600 mt-2">
-                  Ou envoyez directement un email à : <strong>pierre.philipot-amf@proton.me</strong>
+                  Ou envoyez directement un email à : <strong>hashtag.avocat@proton.me</strong>
                 </p>
               </div>
             )}

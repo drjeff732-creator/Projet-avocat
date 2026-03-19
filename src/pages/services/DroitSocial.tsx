@@ -35,7 +35,7 @@ Je souhaiterais obtenir plus d'informations sur vos services et éventuellement 
 
 Cordialement`;
     
-    window.location.href = `mailto:pierre.philipot-amf@proton.me?subject=${subject}&body=${encodeURIComponent(emailBody)}`;
+    window.location.href = `mailto:hashtag.avocat@proton.me?subject=${subject}&body=${encodeURIComponent(emailBody)}`;
   };
 
   const onSubmit = (event: React.FormEvent) => {

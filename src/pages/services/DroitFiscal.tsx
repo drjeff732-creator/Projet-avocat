@@ -35,7 +35,7 @@ Je souhaiterais obtenir plus d'informations sur vos services et éventuellement 
 
 Cordialement`;
     
-    const mailtoLink = `mailto:pierre.philipot-amf@proton.me?subject=${subject}&body=${encodeURIComponent(emailBody)}`;
+    const mailtoLink = `mailto:hashtag.avocat@proton.me?subject=${subject}&body=${encodeURIComponent(emailBody)}`;
     const a = document.createElement('a');
     a.href = mailtoLink;
     document.body.appendChild(a);
